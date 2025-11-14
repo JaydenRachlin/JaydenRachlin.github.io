@@ -2,14 +2,14 @@
 .name {
   text-align: center;
   font-family: "Times New Roman", serif;
-  font-size: 29px;
+  font-size: 32px; /* slightly bigger */
   font-weight: normal;
 }
 
 .contact {
   text-align: center;
   font-family: "Times New Roman", serif;
-  font-size: 17px;
+  font-size: 18px; /* slightly bigger */
 }
 
 .contact a {
@@ -19,14 +19,14 @@
 /* Section titles */
 .section-title {
   font-family: "Times New Roman", serif;
-  font-size: 13px;
+  font-size: 14px; /* slightly bigger */
   font-weight: bold;
 }
 
 /* Section content */
 .section-content {
   font-family: "Times New Roman", serif;
-  font-size: 13px;
+  font-size: 14px; /* slightly bigger */
 }
 
 /* Italics for roles */
@@ -34,13 +34,15 @@ em {
   font-style: italic;
 }
 
-/* Date span */
+/* Bold dates for experience */
 .date {
   float: right;
+  font-weight: bold;
 }
 
 /* HR lines under sections only */
-.section hr {
+.section hr,
+hr {
   border: 1px solid black;
   margin-top: 5px;
   margin-bottom: 10px;

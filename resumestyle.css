@@ -1,0 +1,48 @@
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 40px;
+}
+
+.name {
+    font-size: 29px;
+    font-weight: normal;
+}
+
+.contact {
+    font-size: 17px;
+}
+
+.contact .email {
+    text-decoration: underline;
+}
+
+.section-title {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.section-content {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.date {
+    float: right;
+}
+
+hr.section-line {
+    border: 0;
+    border-top: 1px solid black;
+    margin: 20px 0;
+}

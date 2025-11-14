@@ -1,9 +1,9 @@
 body {
-background: blue;
+background: rgba(255, 162, 0, 0.445);
 font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-color: green;
+color: rgba(0, 128, 0, 0.372);
 text-align: center;
 }
 .projects { 
